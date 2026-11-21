@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌐 Personal Portfolio Website - MFAjetz
 
 > *"Muda bukan halangan. Setiap baris kode yang saya tulis adalah langkah menuju masa depan yang saya impikan."*
