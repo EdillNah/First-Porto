@@ -78,5 +78,3 @@ Tertarik dengan visualisasi prosedural, ingin berdiskusi seputar matematika shad
 
 📸 Instagram: @aidildn_
 =======
-# First-Porto
->>>>>>> 27f330812355076c96c467b48677a8a9d1a4a7e1
