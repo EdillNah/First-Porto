@@ -1,0 +1,80 @@
+@font-face {
+  font-family:'Bemock';
+  src: url(assets/Font/bemock/Bemock.ttf);
+}
+
+@font-face {
+  font-family: 'Hueca';
+  src:url(assets/Font/i_am_hueca/I\ am\ Hueca.otf);
+}
+
+@font-face {
+  font-family: 'WillG';
+  src: url(assets/Font/will_grace/WILLG___.TTF);
+}
+
+@font-face {
+  font-family: 'Danbury';
+  src: url(assets/Font/danbury/Danbury_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+  font-family: 'Florida1' ;
+  src: url(assets/Font/florida_project/Florida\ Project\ Phase\ One.otf);
+}
+
+@font-face {
+  font-family: 'Florida2' ;
+  src: url(assets/Font/florida_project/Florida\ Project\ Phase\ Two.otf);
+}
+
+@font-face {
+  font-family: 'Excon-Light';
+  src: url(assets/Font/Excon_Complete/Excon_Complete/Fonts/OTF/Excon-Light.otf);
+}
+@font-face {
+  font-family: 'Excon-Regular';
+  src: url(assets/Font/Excon_Complete/Excon_Complete/Fonts/OTF/Excon-Regular.otf);
+}
+@font-face {
+  font-family: 'Excon-Bold';
+  src: url(assets/Font/Excon_Complete/Excon_Complete/Fonts/OTF/Excon-Bold.otf);
+}
+@font-face {
+  font-family: 'Excon-Variable';
+  src: url(assets/Font/Excon_Complete/Excon_Complete/Fonts/TTF/Excon-Variable.ttf);
+}
+
+@font-face {
+  font-family: 'Oswald' ;
+  src: url(assets/Font/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url(assets/Font/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'SpaceMono-Regular';
+  src: url(assets/Font/Space_Mono/SpaceMono-Regular.ttf);
+}
+@font-face {
+  font-family: 'SpaceMono-Bold';
+  src: url(assets/Font/Space_Mono/SpaceMono-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Outfit' ;
+  src: url(assets/Font/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(assets/Font/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url(assets/Font/Archivo_Black/ArchivoBlack-Regular.ttf);
+}

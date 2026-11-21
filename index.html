@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="Ajz" href="assets/Logo/bgwhite AJ.png">
+    <title>My Portal</title>
+  </head>
+
+  <body>
+
+    <nav class="flex items-center justify-between">
+      <div>
+        <a class="logo-con flex items-center gap-2.5" href="index.html">
+          <img class="logo" src="assets/Logo/icon AJ.png" alt="logo">
+          <span">MFAjetz</span>
+        </a>
+      </div>
+
+      <ul class="flex  items-center gap-10">
+        <li><a href="index.html" class="nav-link" >Beranda</a></li>
+        <li><a href="#Tentang" class="nav-link">Tentang</a></li>
+        <li><a href="#Porto" class="nav-link">Portofolio</a></li>
+        <li><a href="#Kontak" class="nav-link">Kontak</a></li>
+
+        <li><button id="theme-toggle" class="btn-toggle" aria-label="Toggle dark mode"></button></li>
+      </ul>
+    </nav>
+
+    <section id="Beranda" class="hero sembunyi flex items-center justify-between">
+      <div class="hero-kiri flex-1">
+        <h4>---- Heyyy There, I'm</h4>
+        <h1>Muh. Aidil Al Qadri Az</h1>
+
+        <h3>I Am a <span id="typing-text"></span><span class="cursor"></span></h3>
+        <p>Mahasiswa 19 tahun yang membangun <span class="highlight">pengalaman web yang keren.</span> Belajar setiap hari, commit satu langkah maju</p>
+      </div>
+
+      <div class="hero-img flex-1 flex justify-end">
+        <img id="FtEdil" src="assets/ChatGPT Image Aug 29, 2026, 10_02_17 PM.png" alt="Mans who use batiks">
+      </div>
+    </section>
+
+    <section id="Tentang" class="page sembunyi flex flex-col">
+      <div class="page-th">
+        <h4>----Tentang</h4>
+        <h2>Sedikit tentang<br>Saya.</h2>
+      </div>
+
+      <div class="page-conB flex items-center justify-between">
+        <div class="page-img">
+          <img src="assets/FormalStand.jpg" alt="pria berdiri menggunakan batik ">
+        </div>
+        
+        <div class="page-tb flex-1">
+          <p>
+            Halo! Saya <span class="highlight">Muh. Aidil Al Qadri Az</span>, seorang mahasiswa berusia 19 tahun yang passionate di dunia web development dan teknologi.
+          </p>
+          <p>
+            Meski masih muda, saya harus belajar dan mengembangkan skill di bidang JavaScript dan lain lain. Saya percaya tidak ada kata terlalu dini untuk mulai berkarya di dunia digital. Setiap hari adalah kesempatan belajar hal baru!.
+          </p>
+
+          <p>
+            "Muda bukan halangan. Setiap baris kode yang saya tulis adalah langkah menuju masa depan yang saya impikan" -- <span class="font-bold">Developer Notto</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="Porto" class="porto sembunyi flex flex-col">
+      <div class="porto-th text-center">
+        <h2>----Portofolio----</h2>
+        <p>
+          Jajahi perjalanan saya melalui berbagai proyek,<del>edukasi & sertifikasi, dan keahlian teknis.</del> <br>
+          Setiap bagian mewakili pencapaian dalam proses belajar saya yang berkelanjutan.</p>
+      </div>
+
+      <div class="porto-proyek">
+        <h3>Proyek Terpilih</h3>
+        
+        <div class="proyek-grid grid gap-5">
+          <div class="kartu-proyek flex flex-col gap-2.5">
+            <div class="kartu-img">
+              <img src="assets/Snipaste_2026-08-30_16-33-01.png" alt="Tampilan awal web Genedu">
+            </div>
+    
+            <h4 class="kartu-jdl">Genedu.id</h4>
+            <p class="kartu-desk">
+              Program ini dirancang sebagai platform edukasi genetika berbasis Hukum Pewarisan Sifat Mendel dalam bentuk web app. Platform memungkinkan user memprediksi hasil persilangan genetik secara probabilistik untuk tiga kategori: hewan, tanaman, dan penyakit turunan manusia.
+            </p>
+  
+            <div class="kartu-detail flex items-center justify-between">
+              <a href="" class="Demo">Demo</a>
+              <a href="" class="Detail">Detail</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-sm flex justify-end">
+          <button class="btn-show-more">Tampilkan Lebih Banyak</button>
+        </div>
+
+      </div>
+    </section>
+    
+    <section id="Kontak" class="kontak sembunyi flex items-center justify-between">
+      <div class="kontak-kiri flex flex-col gap-4">
+        <h4>----Kontak</h4>
+        <h2>Ayo<br> kita bekerja<br> sama.</h2>
+        <p class="tagline">
+          Mencari tantangan berikutnya yang berdampak luas.
+        </p>
+        <p class="deks">
+          Saya terbuka untuk kolaborasi, belajar bareng, dan proyek seru!<br>
+          Hubungi saya lewat social media di bawah ini.
+        </p>
+      </div>
+
+      <div class="kontak-kanan flex flex-col gap-4">
+
+        <div class="kontak-kartu flex items-center gap-4">
+          <div class="kartu-icon">✉</div>
+          <div class="info flex flex-col gap-1.5">
+            <label>EMAIL</label>
+            <p>aidilazis25@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="kontak-kartu flex items-center gap-4">
+          <div class="kartu-icon">⌨</div>
+          <div class="info flex flex-col gap-1.5">
+            <label>GITHUB</label>
+            <p>https://github.com/EdillNah</p>
+          </div>
+        </div>
+
+
+        <div class="kontak-kartu flex items-center gap-4">
+          <div class="kartu-icon">in</div>
+          <div class="info flex flex-col gap-1.5">
+            <label>LINKEDIN</label>
+            <p>https://www.linkedin.com/in/muh-aidil-al-qadri-az-5648bb412/</p>
+          </div>
+        </div>
+
+        <a href="mailto:aidilazis25@gmail.com">
+          <button class="btn-kirim w-full">Kirim Pesan</button>
+        </a>
+      </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.remove('sembunyi');
+            entry.target.classList.add('muncul');
+          } else {
+            entry.target.classList.remove('muncul');
+            entry.target.classList.add('sembunyi');
+          }
+        });
+      }, {
+        // Animasi baru memicu saat 20% bagian card sudah terlihat di layar
+        threshold: 0.3
+      });
+
+      const elemenProyek = document.querySelectorAll('.sembunyi');
+      elemenProyek.forEach((el) => observer.observe(el));
+    </script>
+
+  </body>
+</html>

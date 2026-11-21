@@ -1,0 +1,424 @@
+@import url(Font.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  color:#0d0f1a;
+  background: rgb(220, 223, 227) url("assets/download (1).jpg") no-repeat fixed center / cover;
+}
+
+.hero-kiri p, .page-tb p, .porto-th p, .desk {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.sembunyi {
+  opacity: 0;
+}
+
+.muncul {
+  opacity: 1;
+}
+
+/* 2. Navigation */
+nav {
+  position: sticky;
+  top: 0 ;
+  width: 70%;
+  max-width: 1000px;
+  margin: 20px auto 0;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.logo-con {
+  font-family: cambria;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+ul {
+  font-weight: bold;
+  font-size: 1rem;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-link {
+  font-family: 'SpaceMono-Regular';
+  color: black;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #5566ff;
+  border-bottom-color: #5566ff;
+}
+
+.btn-toggle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(25, 25, 25);
+  cursor: pointer;
+  margin-left: 10px;
+  display: block;
+  transition: transform 0.2s ease, background-color 0.15s ease;
+}
+
+.btn-toggle:hover {
+  transform: scale(1.2);
+  transform: 0.2s ease;
+}
+
+body.dark-mode {
+  background-image: url(assets/ChatGPT\ Image\ Sep\ 8\,\ 2026\,\ 09_15_52\ PM.png);
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+
+body.dark-mode nav {
+  background-color: rgba(18, 18, 18, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode nav a {
+  color: white;
+}
+
+body.dark-mode .btn-toggle {
+  background-color: white;
+}
+
+body.dark-mode .btn-kirim {
+  border: 1px solid white;
+  color: white;
+}
+
+body.dark-mode .cursor{
+  background-color: white;
+}
+
+
+
+/* 3. Section 1 (Hero) */
+.hero {
+  max-width: 1000px;
+  height: 90vh;
+  margin: 0 auto;
+  gap: 20px;
+  transition: all 0.8s ease-out;
+}
+
+.hero-kiri {
+  max-width: 400px;
+}
+
+.hero-kiri h1 {
+  font-size: 3.1rem;
+  margin: 0;
+  font-family: 'Danbury';
+  letter-spacing: 2px;
+}
+
+.hero-kiri h3 {
+  letter-spacing: 1px;
+  font-size: 25px;
+  margin: 0;
+  font-family: 'Archivo';
+  font-weight: 900;
+}
+
+.hero-kiri h4 {
+  font-size: 20px;
+  color: white;
+  width: fit-content;
+  background-color: grey;
+  padding: 4px 8px;
+  margin-bottom: 20px;
+  font-family: 'WillG';
+}
+
+.hero-kiri p {
+  margin-top: 10px;
+}
+
+.hero-img {
+  align-self: flex-end;
+}
+
+.hero-img img {
+  display: block;
+  height: 75vh;
+  width: auto;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 2.2rem;
+  background-color: black;
+  margin-left: 0;
+  position: relative;
+  top: 7px;
+}
+
+#typing-text {
+  font-size: 35px;
+}
+
+
+/* 4. Section 2 (About / Bio) */
+.page {
+  max-width: 1000px;
+  height: 100vh;
+  margin: 0 auto;
+  gap: 10px;
+
+  transition: all 0.8s ease-out;
+}
+
+.page-th h2 {
+  max-width: 400px;
+  font-family: 'Danbury';
+  font-size: 30px;
+  padding: 5px 0;
+  line-height: 50px;
+}
+
+.page-th h4 {
+  font-family: 'WillG';
+  font-size: 20px;
+  padding-top: 70px;
+}
+
+.page-conB {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.page-img img {
+  display: block;
+  height: 55vh;
+  border: 1px solid grey;
+  border-radius: 30px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.page-tb p {
+  max-height: 67.5vh;
+  padding-left: 30px;
+}
+
+.highlight {
+  color: #5566ff;
+  font-weight: bold;
+}
+
+/* 5. Section 3 (Portofolio / Grid) */
+.porto {
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 10px;
+  padding-top: 30px;
+  transition: all 0.8s ease-out;
+}
+
+.porto-th h2 {
+  padding-top: 30px;
+  font-family: 'WillG';
+  font-size: 30px;
+}
+
+.porto-proyek h3 {
+  font-family: 'Danbury';
+}
+
+.proyek-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.kartu-proyek {
+  width: 100%;
+  max-width: 360px;
+  background-color: rgb(25, 25, 25);
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.kartu-img {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #0d0f1a;
+}
+
+.kartu-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.kartu-jdl {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.kartu-desk {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.kartu-detail {
+  margin-top: 6px;
+}
+
+.Demo {
+  color: #6366f1;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.Detail, .btn-show-more {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.Detail {
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+}
+
+
+.Detail:hover, .btn-show-more:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+.btn-sm {
+  margin: 20px 0 30px;
+}
+
+.btn-show-more {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-show-more:hover {
+  border-color: black;
+}
+
+/* 6. Section Kontak */
+.kontak {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0;
+  gap: 40px;
+  transition: all 1s ease-out;
+}
+
+.kontak-kiri { flex: 1.2; }
+.kontak-kanan { flex: 1; }
+
+.kontak-kiri h2 {
+  font-size: 4rem;
+  letter-spacing: 5px;
+  line-height: 90px;
+  font-family: 'Danbury';
+  padding: 25px 0;
+  margin: 0;
+}
+
+.kontak-kiri h4 {
+  font-family: 'WillG';
+  font-size: 20px;
+  margin: 0;
+}
+
+.tagline {
+  font-family: 'Trebuchet MS';
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.desk {
+  font-size: 10px;
+}
+
+.kontak-kartu {
+  color: black;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.btn-kirim {
+  width: 100%;
+  padding: 18px;
+  border-radius: 40px;
+  border: 1px solid black;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+
+.kartu-icon {
+  font-size: 20px;
+  background-color: whitesmoke;
+  padding: 6px 8px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info label {
+  color: grey;
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.info p {
+  font-family: Cambria;
+  margin: 0;
+}
