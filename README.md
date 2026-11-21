@@ -59,11 +59,11 @@ Bagi saya, proyek ini bukan sekadar halaman pajangan, melainkan tonggak awal (*f
 
 1. **Clone repositori ini:**
    ```bash
-   git clone https://github.com/EdillNah/<nama-repo-kamu>.git
+   git clone https://github.com/EdillNah/First-Porto.git
    ```
 2. **Masuk ke direktori proyek:**
    ```bash
-   cd <nama-repo-kamu>
+   cd First-Porto
    ```
 3. **Buka halaman:**
    - Cukup buka file `index.html` langsung di browser favorit Anda, **atau**
